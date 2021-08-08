@@ -1,4 +1,15 @@
-天热我突然
+```
+addEventListener(
+"fetch",event => {
+let url=new URL(event.request.url);
+url.hostname="ibmyes.us-south.cf.appdomain.cloud";
+let request=new Request(url,event.request);
+event. respondWith(
+fetch(request)
+)
+}
+)
+```
 # better-cloudflare-ip
 
 查找适合自己当前网络环境的优选Cloudflare Anycast IP
