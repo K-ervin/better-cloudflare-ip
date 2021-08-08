@@ -1,6 +1,6 @@
 # better-cloudflare-ip
 
-查找适合自己当前网络环境的优选Cloudflare Anycast IP
+查找适合自己当前网络环境的优选
 
 ## 使用申明
 
